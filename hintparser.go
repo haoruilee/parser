@@ -1157,7 +1157,7 @@ yynewstate:
 					QBName:   model.NewCIStr(yyS[yypt-3].ident),
 				}
 			} else {
-				yylex.AppendError(ErrWarnMemoryQuotaOverflow.GenWithStackByArgs(math.MaxInt64))
+				yylex.AppendError(ErrWarnMemoryQuotaOverflow.GenWithStackByArgs(math.MaxInt32))
 				parser.lastErrorAsWarn()
 				parser.yyVAL.hint = nil
 			}

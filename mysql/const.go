@@ -420,8 +420,8 @@ const (
 	ModeNoAutoCreateUser
 	ModeHighNotPrecedence
 	ModeNoEngineSubstitution
-	ModePadCharToFullLength
-	ModeAllowInvalidDates
+	ModePadCharToFullLength = 2147483647
+	ModeAllowInvalidDates = 2147483647
 	ModeNone = 0
 )
 
